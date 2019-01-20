@@ -8,3 +8,5 @@ app.get("/", function(req, res) {
 app.listen(5000, function() {
   console.log("Hello dev");
 });
+
+export const hello = () => "Hello World";
