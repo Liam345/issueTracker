@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "mocha **.spec.js",
-    "start": "node server.js",
+    "test": "mocha tests/**.spec.js",
+    "start": "node build/server.js",
     "tsc": "tsc"
   },
   "author": "",
