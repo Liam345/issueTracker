@@ -11,7 +11,10 @@ exports.seed = function(knex, Promise) {
           text: "issue1",
           createdBy: "issue1",
           assignedTo: "issue1",
-          statusText: "issue1"
+          statusText: "issue1",
+          createdOn: new Date(),
+          updatedOn: new Date(),
+          open: true
         },
         {
           id: 2,
@@ -19,7 +22,10 @@ exports.seed = function(knex, Promise) {
           text: "issue2",
           createdBy: "issue2",
           assignedTo: "issue2",
-          statusText: "issue2"
+          statusText: "issue2",
+          createdOn: new Date(),
+          updatedOn: new Date(),
+          open: true
         },
         {
           id: 3,
@@ -27,7 +33,10 @@ exports.seed = function(knex, Promise) {
           text: "issue3",
           createdBy: "issue3",
           assignedTo: "issue3",
-          statusText: "issue3"
+          statusText: "issue3",
+          createdOn: new Date(),
+          updatedOn: new Date(),
+          open: false
         }
       ]);
     });
