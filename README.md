@@ -20,4 +20,4 @@ Example return:
 
 ## Schema
 
-![img](https://github.com/liam345/issueTracker/assets/readme_assets/ERD.png?sanitize=true)
+![img](https://github.com/Liam345/issueTracker/blob/master/assets/readme_assets/ERD.png?sanitize=true)
